@@ -9,7 +9,6 @@ namespace Neo
     /// Base class for little-endian unsigned integers. Two classes inherit from this: UInt160 and UInt256.
     /// Only basic comparison/serialization are proposed for these classes. For arithmetic purposes, use BigInteger class.
     /// </summary>
-
     [StructLayout(LayoutKind.Sequential, CharSet = CharSet.Ansi, Pack = 0)]
     public abstract class UIntBase : ISerializable
     {
